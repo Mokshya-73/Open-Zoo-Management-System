@@ -1,0 +1,36 @@
+body {
+  background-image: url("../images/donationbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card input[type="radio"] {
+  display: none;
+}
+
+.card input[type="radio"] + label {
+  cursor: pointer;
+  display: block;
+}
+
+.card input[type="radio"]:checked + label {
+  border: 5px solid #0b6821;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.custom-amount input[type="number"] {
+  width: 100%;
+}

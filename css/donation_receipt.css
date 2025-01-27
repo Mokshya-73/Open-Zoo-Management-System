@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url("../images/donationbg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+.receipt-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+.receipt-header {
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.receipt-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.receipt-header p {
+  margin: 0;
+  font-size: 14px;
+}
+.receipt-body {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.receipt-body p {
+  margin: 0 0 10px;
+}
+.receipt-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+.qr-code {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.btn-pay {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.thank-you {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.decor-line {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+}

@@ -1,0 +1,99 @@
+/* Background and Font Styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-size: 2rem; /* Adjust base font size for body text */
+  background-image: url("../images/insertbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Style for Radio Button Group */
+.form-group {
+  font-family: "Bree Serif", serif;
+}
+
+/* Radio Button Label Styles */
+.form-group label {
+  font-size: 2.5rem; /* Larger text size for radio button labels */
+  font-weight: 600;
+  display: block; /* Ensure the label takes up its own line */
+  margin-bottom: 10px; /* Space below the label */
+}
+
+/* Radio Button Styles */
+.form-group input[type="radio"] {
+  transform: scale(1.5); /* Increase the size of the radio button */
+  margin-right: 10px; /* Space between radio button and label */
+}
+
+/* Optional: Add hover effect */
+.form-group input[type="radio"]:hover {
+  cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Optional: Add focus effect */
+.form-group input[type="radio"]:focus {
+  outline: 2px solid #007bff; /* Blue outline on focus */
+  outline-offset: 2px; /* Space between outline and radio button */
+}
+
+/* Optional: Add checked effect */
+.form-group input[type="radio"]:checked + label {
+  color: #007bff; /* Change label color when radio button is selected */
+}
+
+/* Optional: Styling for the container of radio buttons */
+.form-group {
+  display: flex;
+  flex-direction: row; /* Stack radio buttons vertically */
+  gap: 20px; /* Space between radio button options */
+}
+
+/* Style for File Input Container */
+.form-group {
+  font-family: "Bree Serif", serif;
+}
+
+/* File Input Label Styles */
+.form-group label {
+  font-size: 2rem; /* Larger text size for the label */
+  font-weight: 600;
+  display: block; /* Ensure the label takes up its own line */
+  margin-bottom: 10px; /* Space below the label */
+}
+
+/* File Input Styles */
+.form-group input[type="file"] {
+  font-size: 2rem; /* Larger text size within the file input */
+  padding: 10px; /* Add padding to the file input */
+  border-radius: 8px; /* Rounded corners for the file input */
+  border: 1px solid #ccc; /* Border around the file input */
+  background-color: #f8f9fa; /* Background color for the file input */
+  width: 100%; /* Full-width input field */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-sizing: border-box; /* Include padding in total width */
+}
+
+/* Optional: Add hover effect */
+.form-group input[type="file"]:hover {
+  background-color: #e9ecef; /* Change background color on hover */
+}
+
+/* Optional: Add focus effect */
+.form-group input[type="file"]:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+btn-success {
+  padding: 50px;
+  font-size: 10px;
+}

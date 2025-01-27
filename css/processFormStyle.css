@@ -1,0 +1,53 @@
+body {
+  background-image: url("../images/process-Form.jpg");
+}
+
+.bill-container {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bill-header,
+.bill-footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bill-details p {
+  margin-bottom: 10px;
+}
+
+.bill-details p strong {
+  font-weight: bold;
+}
+
+.bill-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.bill-table th,
+.bill-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.bill-table th {
+  background-color: #f2f2f2;
+}
+
+.pay-now-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pay-now-btn .btn {
+  font-size: 16px;
+  padding: 10px 20px;
+}

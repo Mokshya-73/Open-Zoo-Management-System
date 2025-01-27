@@ -1,0 +1,101 @@
+/* Form Background Styles */
+.insertbg {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  background-image: url("../images/insertbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Container Styles */
+.container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background-color: #ffcc00;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.jumbotron h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-control {
+  font-size: 1.7rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Radio Button and Label Styles */
+.form-group input[type="radio"] {
+  margin-left: 10px;
+  transform: scale(1.5); /* Enlarges the radio button itself */
+}
+
+.form-group input[type="radio"] + label {
+  font-size: 1.7rem; /* Increase text size next to radio buttons */
+  font-weight: bold;
+  margin-left: 10px; /* Space between radio button and label text */
+  vertical-align: middle; /* Align text vertically with the radio button */
+}
+
+/* Thumbnail Image Styles */
+.form-group img.thumbnail {
+  display: block;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+}
+
+/* File Input Field Styles */
+.form-group input[type="file"] {
+  font-size: 1.7rem; /* Enlarge the file input field */
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Button Styles */
+.btn-success {
+  font-size: 1.5rem; /* Increase button size */
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  margin: 1rem 0;
+  text-decoration: none;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  opacity: 0;
+  font-size: 6rem;
+  animation: fadeIn 2s ease forwards;
+  font-family: "Spicy Rice", serif;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+p {
+  font-size: 4rem;
+  opacity: 0;
+  animation: fadeInText 2s ease forwards 3s;
+  text-decoration: none;
+}
+
+.intro {
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: scale(0, 0);
+  animation: animate 1s ease-in forwards 2s;
+  overflow: hidden;
+  display: flex;
+}
+
+.content {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.notification-button {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(45deg, #c59100, #009b4e);
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center; /* Ensures scaling occurs from the center */
+}
+
+.notification-button:hover {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  background: linear-gradient(45deg, #ffb700b5, #007e17);
+  transform: translate(-50%, -50%) scale(1.1); /* Slight zoom effect */
+}
+
+.button-glow {
+  animation: glowing 1000ms infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0, 0.005);
+  }
+  50% {
+    transform: scaleY(0.005);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.admin-button {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(35deg, #306700, #a77500);
+  transition: background 0.3s ease, transform 0.3s ease;
+  position: absolute;
+  top: 5%;
+  left: 90%;
+
+  transform-origin: center; /* Ensures scaling occurs from the center */
+}
+
+.admin-button:hover {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  transform: translate(-20%, -20%) scale(1.1); /* Slight zoom effect */
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 -10px #00fd72;
+  }
+  40% {
+    box-shadow: 0 0 20px #00fd72;
+  }
+  60% {
+    box-shadow: 0 0 20px #00fd72;
+  }
+  100% {
+    box-shadow: 0 0 -10px #00fd72;
+  }
+}
+
+.button-glow {
+  animation: glowing 1000ms infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0, 0.005);
+  }
+  50% {
+    transform: scaleY(0.005);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

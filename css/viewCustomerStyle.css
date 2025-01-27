@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../images/view.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+table {
+  width: 90%;
+  margin: 50px;
+  border-collapse: collapse;
+  background-color: black;
+}
+th,
+td {
+  border: 1px solid #63c30f;
+  padding: 8px;
+  text-align: center;
+  color: aliceblue;
+}
+th {
+  background-color: #a11b1b;
+}
+h2 {
+  text-align: center;
+  color: rgb(14, 176, 52);
+  font-size: 40px;
+}

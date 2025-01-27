@@ -1,0 +1,10 @@
+* {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+body {
+  background-image: url("../images/store-form.jpg");
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  color: white;
+}

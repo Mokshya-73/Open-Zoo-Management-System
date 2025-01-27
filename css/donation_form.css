@@ -1,0 +1,9 @@
+body {
+  background-image: url("../images/donationbg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}

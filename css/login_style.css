@@ -1,0 +1,150 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  background-image: url("../images/loginbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Inputs and Buttons */
+input,
+button {
+  border: none;
+  background: none;
+  color: #ffffff;
+}
+
+.cont {
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+  height: 550px;
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  box-shadow: 0 19px 38px rgba(255, 166, 2, 0.822),
+    0 15px 12px rgba(0, 125, 25, 0.993);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  width: 500px;
+  height: 100%;
+  padding: 50px 30px;
+}
+
+.topic {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    #6bff6b 0%,
+    #00bf26 30%,
+    #ff7c00 60%,
+    #ff7f04 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+label {
+  display: block;
+  width: 260px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+label span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4e402e;
+  text-transform: uppercase;
+  background: linear-gradient(
+    to right,
+    #6bff6b 0%,
+    #00bf26 30%,
+    #ff7c00 60%,
+    #ff7f04 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(79, 71, 43, 0.4);
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: linear-gradient(316deg, #f46703 0%, #01740e 74%);
+  transition: 0.5s;
+}
+
+.submit:hover {
+  background-image: linear-gradient(319deg, #009224 37%, #abdf00 100%);
+  color: rgb(0, 0, 0);
+}
+
+/* Left and Right Image Containers */
+.sub-cont {
+  width: 150px; /* Suitable width for image containers */
+  height: 100%; /* Full height to match the form height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height to match the container height */
+  background-image: url("../images/loginside.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#error-message {
+  color: red;
+  display: none;
+}

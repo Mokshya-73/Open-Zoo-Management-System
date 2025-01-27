@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrolling */
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  background-image: url("../images/aboutbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 70vh; /* Adjust the height for responsiveness */
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin: 0 0.5em;
+  flex: 1;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.custom-card {
+  border-radius: 15px;
+  border: 2px solid #ffbb00;
+  transition: all 0.3s ease-in-out;
+  background-color: #000000;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 40px 80px #ffa200;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.image-container {
+  width: 100%;
+  max-height: 550px; /* Limit image height */
+  overflow: hidden;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-text {
+  flex-grow: 10;
+  margin-top: 8px;
+  font-size: 24px; /* Adjust font size for better fit */
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-card:hover .card-text {
+  color: rgb(239, 222, 72);
+}
+
+.mycard {
+  color: #ff8000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.model {
+  object-fit: cover;
+}
+
+.animal .Section_cover {
+  position: absolute;
+  width: 100%;
+  top: 1200px;
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../images/l2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+
+  background-size: cover;
+}

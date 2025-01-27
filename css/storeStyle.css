@@ -1,0 +1,13 @@
+body {
+  background-image: url("../images/storeg.jpg");
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(236, 236, 152);
+  background-color: rgb(118, 90, 20);
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}

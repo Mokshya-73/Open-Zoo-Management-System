@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/animalbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+
+.slider {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 5% auto 0;
+  box-sizing: border-box !important;
+}
+
+.imagebox {
+  margin: 0 1%;
+  flex-grow: 2;
+  flex-basis: 0;
+  transition: 1.5s;
+}
+
+.imagebox img {
+  width: 105%;
+  height: 120%;
+  object-fit: cover;
+  transition: 1s;
+  border-radius: 10%;
+}
+
+.imagebox:hover {
+  width: 700px;
+  height: 500px;
+  transition: 1.5s;
+}
+
+.imagebox:hover,
+.active {
+  flex-basis: 40%;
+}
+
+.slider:hover .active {
+  flex-basis: 0;
+}
+
+@media screen and (min-width: 100px) and (max-width: 100px) {
+  .slider {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden0;
+  }
+
+  .imagebox {
+    width: 150px;
+    height: 100px;
+    margin: 30px 0px;
+  }
+
+  .imagebox:hover {
+    width: 100px;
+    height: 200px;
+  }
+
+  .imagebox:hover img {
+    width: 100px;
+    height: 150px;
+    flex-basis: 100%;
+  }
+
+  .imagebox img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.animalbutton {
+  background-color: #c57a00;
+  top: 45%;
+  font-size: 35px;
+  margin: 5px 3px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  left: 730px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.animalbutton:hover {
+  background-color: #067200;
+  color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.fun .Section_cover {
+  position: absolute;
+  width: 100%;
+  top: 1100px;
+  height: 500px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../images/l3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+
+  background-size: cover;
+}
